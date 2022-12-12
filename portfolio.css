@@ -220,7 +220,7 @@ h5{
 }
 .cards .button{
 	text-decoration: none;
-	padding: 12px;
+	padding: 12px 25px;
 	background-color:#f9004d ;
 	border-radius: 30px;
 	color: white;
@@ -245,4 +245,30 @@ cursor: pointer;
 	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 25px;
+}
+.button-two{
+	text-decoration: none;
+	padding: 12px 25px;
+	background-color:#f9004d ;
+	border-radius: 30px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+ .button-two:hover{
+
+background-color: black;
+border: 2px solid #f54260;
+cursor: pointer;
+color: white;
+}
+footer{
+	width: 100%;
+	position: relative;
+	height: 400px;
+	background: 101010;
+	flex-direction: column;
+	align-items: center;
+}
 
