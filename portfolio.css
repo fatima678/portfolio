@@ -167,3 +167,82 @@ button:hover{
 background-color: transparent;
 border: 2px solid #f54260;
 cursor: pointer;
+}
+.Service{
+	width: 100%;
+	background: #191919;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 60px;
+	width: 1130px;
+	text-align: center;
+	margin: 30px auto;
+}
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 400px;
+}
+.cards{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 20px;
+}
+.cards i{
+	color: white;
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+h5{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.pra{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+.cards .button{
+	text-decoration: none;
+	padding: 12px;
+	background-color:#f9004d ;
+	border-radius: 30px;
+	color: white;
+}
+.cards .button:hover{
+
+background-color: transparent;
+border: 2px solid #f54260;
+cursor: pointer;
+}
+.contact-me{
+	width: 100%;
+	height: 200px;
+	background: #191919;
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 25px;
+
